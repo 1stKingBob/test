@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Calendar, Tool, CheckCircle, Clock, AlertTriangle, Printer, Building } from "lucide-react";
+import { Calendar, Wrench, CheckCircle, Clock, AlertTriangle, Printer, Building } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const Maintenance = () => {
@@ -160,7 +160,7 @@ const Maintenance = () => {
         
         <section>
           <h2 className="text-2xl font-semibold mb-4 flex items-center">
-            <Tool className="mr-2 h-6 w-6" />
+            <Wrench className="mr-2 h-6 w-6" />
             Report a Maintenance Issue
           </h2>
           
@@ -250,7 +250,7 @@ const Maintenance = () => {
               </Button>
               <Button variant="outline" asChild className="flex items-center justify-center">
                 <a href="#print" target="_blank">
-                  <Tool className="mr-2 h-4 w-4" />
+                  <Wrench className="mr-2 h-4 w-4" />
                   Approved Contractor List
                 </a>
               </Button>

@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Home, Info, Users, FileText, Tool, Mail } from "lucide-react";
+import { Home, Info, Users, FileText, Wrench, Mail } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -41,7 +41,7 @@ const Navbar = () => {
             </Button>
             <Button variant="ghost" asChild>
               <Link to="/maintenance" className="flex items-center">
-                <Tool className="mr-2 h-4 w-4" />
+                <Wrench className="mr-2 h-4 w-4" />
                 Maintenance
               </Link>
             </Button>

@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bell, Calendar, FileText, Tool } from "lucide-react";
+import { Bell, Calendar, FileText, Wrench } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -85,7 +85,7 @@ const Home = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Tool className="mr-2 h-5 w-5" />
+                <Wrench className="mr-2 h-5 w-5" />
                 Maintenance
               </CardTitle>
               <CardDescription>Building upkeep and repairs</CardDescription>

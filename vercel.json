@@ -1,0 +1,46 @@
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "npm run build",
+        "outputDirectory": "dist"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*\\.(js|css|svg|png|jpg|jpeg|gif|ico))", "dest": "/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "regions": ["syd1"],
+  "env": {
+    "REACT_APP_API_URL": "https://api.example.com"
+  },
+  "crons": [
+    {
+      "path": "/api/scheduled-maintenance-reminder",
+      "schedule": "0 9 * * 1"
+    },
+    {
+      "path": "/api/quarterly-levy-reminder",
+      "schedule": "0 9 1 */3 *"
+    }
+  ],
+  "functions": {
+    "api/get-documents.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    },
+    "api/submit-maintenance.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    },
+    "api/send-committee-message.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}

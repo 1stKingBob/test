@@ -15,10 +15,6 @@
     {
       "path": "/api/scheduled-maintenance-reminder",
       "schedule": "0 9 * * 1"
-    },
-    {
-      "path": "/api/quarterly-levy-reminder",
-      "schedule": "0 9 1 */3 *"
     }
   ]
 }

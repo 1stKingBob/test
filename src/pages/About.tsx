@@ -10,7 +10,7 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">What is Strata?</h2>
         <p className="mb-4">
-          In New North Wales, strata-titled apartment buildings are governed by the Strata Schemes
+          In New South Wales, strata-titled apartment buildings are governed by the Strata Schemes
           Management Act (2015). Each building is subdivided into units, or lots, and collectively
           forms the Owners Corporation (also known as the body corporate).
         </p>

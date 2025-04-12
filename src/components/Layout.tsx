@@ -12,7 +12,7 @@ const Layout = () => {
         <Navbar />
         <div className="flex flex-grow pt-16">
           <SideNav />
-          <main className="flex-grow p-4 pl-6">
+          <main className="flex-grow p-4 pl-10">
             <Outlet />
           </main>
         </div>

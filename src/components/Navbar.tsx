@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header className="bg-primary text-primary-foreground shadow-md fixed top-0 left-0 right-0 z-10">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-4">
           <Link to="/" className="text-2xl font-bold flex items-center">
             <Building className="mr-2 h-6 w-6" />
             Horizon Strata

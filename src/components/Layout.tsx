@@ -10,7 +10,7 @@ const Layout = () => {
     <SidebarProvider>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <div className="flex flex-grow">
+        <div className="flex flex-grow pt-16">
           <SideNav />
           <main className="flex-grow p-4">
             <Outlet />

@@ -1,40 +1,24 @@
 # INFO1111 Self-learning Assignment
 
-## Strata Management Website By Nevann Tanwar
+**Strata Management Website By Nevann Tanwar**
 
 
-## How can I edit this code?
+## About this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/4bdf3a15-e4f5-4505-a93a-0a4955f3c57c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+This code was made with several criterias in mind:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+#1: Named related to the project. Either used Vercel_Strata_Web, Horizon Strata (Placeholder name of the Strata Community), or Strata-management website
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+#2: Uses React as a framework for the project
 
-# Step 3: Install the necessary dependencies.
-npm i
+#3: Connected to the Github Repo Vercel_Strata_Web
+https://github.com/1stKingBob/Vercel_Strata_Web
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+#4: Environment variables of Email username and password setup during the deployment of Vercel
+
+#5: Static Images uploaded on the Home page
 ```
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 

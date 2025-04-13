@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-primary text-primary-foreground shadow-md fixed top-0 left-0 right-0 z-10">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-4 pl-0 md:pl-64">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold flex items-center mr-6">
             <Building className="mr-2 h-6 w-6" />

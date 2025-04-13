@@ -23,7 +23,7 @@ const Navbar = () => {
             {currentPage}
           </div>
           <Link to="/" className="text-2xl font-bold flex items-center ml-auto">
-            <Building className="mr-2 h-6 w-6" />
+            <img src="/Icon.png" alt="Horizon Strata Logo" className="mr-2 h-6 w-6" />
             Horizon Strata
           </Link>
         </div>      

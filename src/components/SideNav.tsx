@@ -27,7 +27,7 @@ const SideNav = () => {
     <Sidebar className="border-r">
       <SidebarHeader className="border-b pb-2">
         <div className="text-sm text-muted-foreground ml-2">
-          Navigation
+          Menu
         </div>
       </SidebarHeader>
       <SidebarContent>

@@ -12,6 +12,11 @@ const Home = () => {
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Your central hub for strata management and community information.
         </p>
+        <img
+          src="/Strata.jpg"
+          alt="Strata Community"
+          className="mx-auto rounded-lg shadow-lg w-full max-w-md"
+        />
       </section>
 
       <section className="mb-12">

@@ -1,6 +1,7 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Building } from "lucide-react";
+import { Building, Menu } from "lucide-react";
+import { SidebarTrigger } from "@/components/ui/sidebar";
 
 const pageNames: Record<string, string> = {
   "/": "Home",
@@ -18,7 +19,10 @@ const Navbar = () => {
   return (
     <header className="bg-primary text-primary-foreground shadow-md fixed top-0 left-0 right-0 z-10">
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center">
+        <div className="flex items-center gap-4">
+          <SidebarTrigger className="mr-2">
+            <Menu className="h-6 w-6" />
+          </SidebarTrigger>
           <Link to="/" className="text-2xl font-bold flex items-center mr-6">
             <Building className="mr-2 h-6 w-6" />
             Horizon Strata
